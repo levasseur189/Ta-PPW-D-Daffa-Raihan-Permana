@@ -1,11 +1,11 @@
-# Website Portfolio - Arfan Andhika Pramudya
+# Website Portfolio - Daffa Raihan Permana
 
 Ini adalah source code untuk website portfolio pribadi saya, yang menampilkan proyek, keterampilan, dan pengalaman saya. Dibuat sebagai bagian dari studi Praktikum Pemrograman Website.
 
 ## Teknologi yang Digunakan
 
-* **HTML5**
-* **CSS3** (Sebutkan jika menggunakan framework seperti Bootstrap)
+* HTML5
+* CSS3
 
 ## Fitur
 
