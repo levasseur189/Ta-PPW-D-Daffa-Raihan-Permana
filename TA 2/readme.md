@@ -18,6 +18,6 @@ Ini adalah source code untuk website portfolio pribadi saya, yang menampilkan pr
 
 1.  Clone repository ini:
     ```bash
-    git clone https://github.com/arfanPramudya/Praktikum-Pemrograman-Web.git
+    [git clone (https://github.com/levasseur189/Ta-PPW-D-Daffa-Raihan-Permana.git)
     ```
 2.  Buka file `index.html` di browser favorit Anda.
