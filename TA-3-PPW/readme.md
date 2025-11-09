@@ -7,7 +7,8 @@ Website ini dibangun menggunakan **Tailwind CSS**, dengan desain bertema **biru 
 
 ## 🚀 Demo
 Tampilan website:  
-![TechNova Screenshot](<img width="1904" height="903" alt="image" src="https://github.com/user-attachments/assets/fa1dd8a5-6ba7-409c-92e9-2ed774d01466" />
+![TechNova Screenshot](<img width="1904" height="903" alt="Screenshot 2025-11-09 195026" src="https://github.com/user-attachments/assets/63b660cb-49c2-46c2-9002-6236d0aebcf3" />
+
 )
 
 Atau buka langsung melalui browser lokal setelah instalasi.
@@ -30,8 +31,7 @@ Atau buka langsung melalui browser lokal setelah instalasi.
 ## 🛠️ Teknologi yang Digunakan
 
 - [Tailwind CSS](https://tailwindcss.com) — framework CSS modern dan ringan.  
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) — struktur dasar halaman.  
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — interaktivitas dan efek transisi.  
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) — struktur dasar halaman.    
 - [Unsplash & Pexels](https://unsplash.com) — sumber gambar bebas hak cipta.  
 
 ---
