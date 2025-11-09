@@ -7,11 +7,8 @@ Website ini dibangun menggunakan **Tailwind CSS**, dengan desain bertema **biru 
 
 ## 🚀 Demo
 Tampilan website:  
-![TechNova Screenshot](<img width="1904" height="903" alt="Screenshot 2025-11-09 195026" src="https://github.com/user-attachments/assets/63b660cb-49c2-46c2-9002-6236d0aebcf3" />
+<img width="1904" height="903" alt="Screenshot 2025-11-09 195026" src="https://github.com/user-attachments/assets/63b660cb-49c2-46c2-9002-6236d0aebcf3" />
 
-)
-
-Atau buka langsung melalui browser lokal setelah instalasi.
 
 ---
 
