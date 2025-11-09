@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechNova - Inovasi Digital Futuristik</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+  <style>
+    html { scroll-behavior: smooth; }
+
+    
+    .fade-up {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s ease;
+    }
+    .fade-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    
+    .hover-glow:hover {
+      box-shadow: 0 0 25px rgba(0, 153, 255, 0.5);
+      transform: translateY(-5px);
+      transition: all 0.4s ease;
+    }
+
+    
+    .gradient-text {
+      background: linear-gradient(90deg, #00B4DB, #0083B0);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    
+    .btn-glow {
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    }
+    .btn-glow:hover {
+      box-shadow: 0 0 30px rgba(59, 130, 246, 0.8);
+      transform: scale(1.05);
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-gray-100">
+
+<header class="bg-slate-900/80 backdrop-blur-lg border-b border-blue-500/20 fixed w-full top-0 z-50 transition-all duration-300">
+  <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    
+    <!-- Logo TechNova (gambar saja) -->
+    <a href="#home" class="flex items-center">
+      <img 
+        src="logo.png" 
+        alt="TechNova Logo" 
+        class="w-25 h-16 transition-transform duration-300 hover:scale-110 hover:drop-shadow-[0_0_10px_#3b82f6]"
+      >
+    </a>
+
+    <!-- Navigation -->
+    <nav class="hidden md:flex space-x-6 font-medium">
+      <a href="#home" class="hover:text-blue-400 transition">Beranda</a>
+      <a href="#features" class="hover:text-blue-400 transition">Fitur</a>
+      <a href="#about" class="hover:text-blue-400 transition">Tentang</a>
+      <a href="#contact" class="hover:text-blue-400 transition">Kontak</a>
+    </nav>
+
+    <!-- Menu Button (mobile) -->
+    <button id="menu-btn" class="md:hidden focus:outline-none text-blue-400">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+        viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+</header>
+  
+  <!-- Hero Section -->
+<section id="home" 
+  class="relative min-h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden">
+
+  <!-- Background Image -->
+  <div class="absolute inset-0">
+    <img 
+      src="bg.avif"
+      alt="TechNova Background" 
+      class="w-full h-full object-cover object-center"
+    >
+    <!-- Overlay Gelap Transparan -->
+    <div class="absolute inset-0 bg-slate-900/70 backdrop-blur-sm"></div>
+  </div>
+
+  <!-- Konten -->
+  <div class="relative z-10 px-6 max-w-3xl animate-fadeInUp">
+    <h2 class="text-4xl md:text-6xl font-extrabold mb-4 text-blue-400 ">
+      Inovasi Digital untuk Mengubah Cara Dunia Bekerja
+    </h2>
+    <p class="text-lg md:text-xl mb-8 text-blue-100 leading-relaxed">
+      Kami menciptakan solusi cerdas berbasis teknologi modern untuk membantu bisnis beradaptasi, tumbuh, dan memimpin di era digital.
+    </p>
+    <a href="#contact" 
+       class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:shadow-blue-500/50 transition-all duration-300">
+       Hubungi Kami
+    </a>
+  </div>
+
+  <!-- Efek Cahaya Halus -->
+  <div class="absolute bottom-0 w-full h-40 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+</section>
+
+
+  <!-- Features -->
+  <section id="features" class="py-20 bg-slate-950 fade-up">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-12 gradient-text">Fitur Unggulan Kami</h3>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-slate-800 p-8 rounded-xl border border-blue-700/30 hover-glow">
+          <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" class="w-16 mx-auto mb-4" alt="AI Icon">
+          <h4 class="text-xl font-semibold mb-2 text-blue-400">Kecerdasan Buatan</h4>
+          <p class="text-gray-300">Integrasi AI untuk analisis data real-time dan otomatisasi cerdas.</p>
+        </div>
+        <div class="bg-slate-800 p-8 rounded-xl border border-blue-700/30 hover-glow">
+          <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" class="w-16 mx-auto mb-4" alt="Cloud Icon">
+          <h4 class="text-xl font-semibold mb-2 text-blue-400">Cloud Computing</h4>
+          <p class="text-gray-300">Akses data Anda kapan saja dengan solusi awan yang cepat dan aman.</p>
+        </div>
+        <div class="bg-slate-800 p-8 rounded-xl border border-blue-700/30 hover-glow">
+          <img src="https://cdn-icons-png.flaticon.com/512/2721/2721292.png" class="w-16 mx-auto mb-4" alt="Security Icon">
+          <h4 class="text-xl font-semibold mb-2 text-blue-400">Keamanan Siber</h4>
+          <p class="text-gray-300">Teknologi perlindungan tingkat tinggi untuk menjaga data bisnis Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900 text-white py-24 overflow-hidden">
+  <div class="container mx-auto px-6 flex flex-col md:flex-row items-center md:space-x-12">
+   
+    <div class="md:w-1/2 mb-12 md:mb-0">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+        About Us
+      </h2>
+      <h3 class="text-2xl font-semibold mb-4 text-blue-300">
+        TechNova Solusi Informatika
+      </h3>
+      <p class="text-gray-300 leading-relaxed mb-4">
+        Kami adalah perusahaan startup yang berfokus pada pengembangan
+        <span class="text-blue-400 font-medium">Perangkat Lunak, Web Apps, Mobile Apps</span>, 
+        dan solusi IT khusus untuk perusahaan serta bisnis kreatif.
+      </p>
+      <p class="text-gray-400">
+        Kami membantu proses <span class="text-blue-300">perencanaan</span>, 
+        <span class="text-blue-300">implementasi</span>, hingga 
+        <span class="text-blue-300">support berkelanjutan</span> untuk memastikan keberhasilan teknologi digital Anda.
+      </p>
+    </div>
+
+    
+    <div class="md:w-1/2 grid grid-cols-2 gap-4 relative">
+      <div class="col-span-1">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" 
+     alt="Tim Developer" 
+     class="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500">
+      </div>
+      <div class="col-span-1 mt-12">
+        <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80" alt="Kantor TechNova"> 
+      </div>
+      <div class="col-span-1 mx-auto -mt-10">
+        <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Kolaborasi Tim"> 
+      </div>
+    </div>
+  </div>
+
+  <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+  <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-blue-500/10 via-cyan-400/5 to-transparent pointer-events-none"></div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-slate-950 fade-up">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-8 gradient-text">Hubungi Kami</h3>
+      <form class="max-w-xl mx-auto bg-slate-800 p-8 rounded-xl border border-blue-700/40 hover-glow transition">
+        <div class="mb-4 text-left">
+          <label class="block text-sm font-semibold mb-2 text-blue-300">Nama</label>
+          <input type="text" placeholder="Masukkan nama Anda" class="w-full border border-blue-600/40 bg-slate-900 text-gray-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4 text-left">
+          <label class="block text-sm font-semibold mb-2 text-blue-300">Email</label>
+          <input type="email" placeholder="Masukkan email Anda" class="w-full border border-blue-600/40 bg-slate-900 text-gray-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="mb-4 text-left">
+          <label class="block text-sm font-semibold mb-2 text-blue-300">Pesan</label>
+          <textarea rows="4" placeholder="Tulis pesan Anda..." class="w-full border border-blue-600/40 bg-slate-900 text-gray-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-lg btn-glow">
+          Kirim Pesan
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 border-t border-blue-700/30 text-gray-400 py-6 fade-up">
+    <div class="container mx-auto text-center space-y-3">
+      <p>&copy; 2025 TechNova. Semua hak dilindungi.</p>
+      <div class="flex justify-center space-x-6">
+        <a href="#" class="hover:text-blue-400 transition">Facebook</a>
+        <a href="#" class="hover:text-blue-400 transition">Twitter</a>
+        <a href="#" class="hover:text-blue-400 transition">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("mobile-menu");
+    btn.addEventListener("click", () => menu.classList.toggle("hidden"));
+
+    const fadeElements = document.querySelectorAll(".fade-up");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add("visible");
+      });
+    }, { threshold: 0.2 });
+    fadeElements.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
